@@ -1,0 +1,58 @@
+REG_NAME;bitfield;NAME;ERROR_CODE;TYPE;SERIOUSNESS;SW_NAME
+FAULTS_0;0;Gap Filler UFR Deployed Default;10;1;0;FAULTS_0_DEPL_DEFAULT
+FAULTS_0;1;Gap Filler UFR Retracted Default;11;1;0;FAULTS_0_RETR_DEFAULT
+FAULTS_0;2;Motor power supply failure;20;1;0;FAULTS_0_MOTOR_SUPPLY
+FAULTS_0;3;Gap Filler Motor Failure or Step Blocked;21;1;0;FAULTS_0_MOTOR_OR_STEP
+FAULTS_0;4;Motor open circuit;22;1;0;FAULTS_0_MOT_OPEN_CIR
+FAULTS_0;5;Motor fricton too high;23;1;0;FAULTS_0_FRICTION
+FAULTS_0;6;Motor overcurrent - fail to retract;24;1;0;FAULTS_0_OC_RETR
+FAULTS_0;7;Motor overcurrent - fail to deploy;25;1;0;FAULTS_0_OC_DEPL
+FAULTS_0;8;Encoder fault;31;1;0;FAULTS_0_ENCODER
+FAULTS_0;9;Encoder Pulses not equal;32;1;0;FAULTS_0_ENC_PLS_NEQ
+FAULTS_0;10;Encoder Pulses loss;33;1;0;FAULTS_0_ENC_PLS_LOST
+FAULTS_0;11;Encoder polarity wrong ;34;1;2;FAULTS_0_ENC_POLARITY
+FAULTS_0;12;Gap Filler installation procedure not finished;35;1;2;FAULTS_0_INSTALLATION
+FAULTS_0;13;R1 Door Closed Relay LV Signals Contact failure;40;1;0;FAULTS_0_DC_REL_LV_SIG
+FAULTS_0;14;R1 Door Closed Relay Motor Supply Contact failure;41;1;0;FAULTS_0_DC_REL_MOT_SPLY
+FAULTS_0;15;R2 Zero Velocity Relay failure;42;1;0;FAULTS_0_REL_ZERO_VEL
+FAULTS_1;0;R3 Opening Authorization Relay failure;43;1;0;FAULTS_1_REL_OP_AUTH
+FAULTS_1;1;Conflict signal - Gap Filler Deployed Sensor with Retracted Or LockedOut;50;1;0;FAULTS_1_SIG_CONFLICT_DEPL_OR_RETRLCK
+FAULTS_1;2;Conflict signal - Gap Filler Deployed Sensor with Closed Position Sensor;51;1;0;FAULTS_1_SIG_CONFLICT_DEPL_OR_CLOS
+FAULTS_1;3;Conflict signal - Gap Filler Deployed Sensor with Lock Out Sensor;52;1;0;FAULTS_1_SIG_CONFLICT_DEPL_OR_LCK_OUT
+FAULTS_1;4;Conflict signal - Gap Filler Open with Retracted Or LockedOut;53;1;0;FAULTS_1_SIG_CONFLICT_OPEN_OR_RETRLCK
+FAULTS_1;5;Conflict signal - Gap Filler Open with Closed Position Sensor;54;1;0;FAULTS_1_SIG_CONFLICT_OPEN_OR_CLOS
+FAULTS_1;6;Conflict signal - Gap Filler Open with Lock Out Sensor;55;1;0;FAULTS_1_SIG_CONFLICT_OPEN_OR_LCK_OUT
+FAULTS_1;7;Conflict signal - Gap Filler Open with Motor Supply Signal;56;1;0;FAULTS_1_SIG_CONFLICT_OPEN_OR_MOT_SPLY
+FAULTS_1;8;Conflict signal - Gap Filler Open without Plate Position Sensor;57;1;0;FAULTS_1_SIG_CONFLICT_OPEN_OR_PLATE
+FAULTS_1;9;Clutch sensors signal not present when expected;58;1;0;FAULTS_1_CLUTCH
+FAULTS_1;10;Conflict signal - LockOut sensors failure;59;1;0;FAULTS_1_SIG_CONFLICT_LCK_OUT
+FAULTS_1;11;Conflict signal - RetractedOrLockedOut signal when not expected;60;1;0;FAULTS_1_SIG_CONFLICT_RETRLCK
+FAULTS_1;12;Closed position sensor failure (safety risk);61;1;0;FAULTS_1_CLOS_SAFETY
+FAULTS_1;13;Lock-Out sensor failure;62;1;0;FAULTS_1_LCK_OUT_NEQ
+FAULTS_1;14;Closed position sensor failure;63;1;0;FAULTS_1_CLOS_NEQ
+FAULTS_1;15;Clutch sensor failure ;64;1;0;FAULTS_1_CLUTCH_NEQ
+FAULTS_2;0;Clutch sensor failure (safety risk);65;1;0;FAULTS_2_CLUTCH_SAFETY
+FAULTS_2;1;Deployed position sensor failure;66;1;0;FAULTS_2_DEPL_SENS
+FAULTS_2;2;Gap Filler SCU failure;80;1;0;FAULTS_2_SCU
+FAULTS_2;3;Gap Filler SCU self test failed;81;1;0;FAULTS_2_SELFTEST
+FAULTS_2;4;Gap Filler SCU communication failure;82;1;0;FAULTS_2_COMMUNICATION
+FAULTS_2;5;Gap Filler SCU memory failure;83;1;0;FAULTS_2_MEMORY
+FAULTS_2;6;Internal motor controller failure ;84;1;0;FAULTS_2_INT_MOT_CTRL
+FAULTS_2;7;Internal current sensor failure ;85;1;0;FAULTS_2_INT_CURR_SENS
+FAULTS_2;8;Could not read/write hardware IO;86;1;0;FAULTS_2_IO
+FAULTS_2;9;TCMS Ethernet communication failure ;87;1;0;FAULTS_2_TCMS
+FAULTS_2;10;Internal motor controller overheat;88;1;2;FAULTS_2_INT_MOT_HEAT
+WARNINGS_0;0;Encoder Pulses not equal;200;0;3;WARNINGS_0_ENC_PLS_NEQ
+WARNINGS_0;1;Encoder pulses loss;201;0;3;WARNINGS_0_ENC_PLS_LOSS
+WARNINGS_0;2;Encoder false pulses;202;0;3;WARNINGS_0_ENC_PLS_FALSE
+WARNINGS_0;3;Motor fricton too high;203;0;3;WARNINGS_0_FRICTION
+WARNINGS_0;4;Deployment time too long;204;0;3;WARNINGS_0_DEPL_TIME
+WARNINGS_0;5;Retraction time too long;205;0;3;WARNINGS_0_RETR_TIME
+WARNINGS_0;6;Temperatue higher than usual;206;0;3;WARNINGS_0_TEMP
+INFORMATIONS_0;0;Gap Filler UFR Failed To Deploy Because Obstacle;401;3;2;INFO_0_DEPL_OBSTR
+INFORMATIONS_0;1;Gap Filler UFR Failed To Retract Because Obstacle;402;3;2;INFO_0_RETR_OBSTR
+INFORMATIONS_0;2;Gap Filler need to be switched to lock-out urgently ;403;3;0;INFO_0_GO_TO_LCK
+INFORMATIONS_0;3;Gap Filler UFR is in lock-out mode;404;3;2;INFO_0_IN_LCK_OUT
+ALARMS_0;0;Gap Filler UFR Failed To Deploy Because Obstacle;600;2;2;ALARMS_0_DEPL_OBSTR
+ALARMS_0;1;Gap Filler UFR Failed To Retract Because Obstacle;601;2;2;ALARMS_0_RETR_OBSTR
+ALARMS_0;2;Gap Filler need to be switched to lock-out urgently ;601;2;0;ALARMS_0_GO_TO_LCK
