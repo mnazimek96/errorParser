@@ -1,8 +1,10 @@
-errorParser.py: Parser run by mikey. Date: 29/10/2020 14:49:51
+errorParser.py: Parser run by mikey. Date: 31/10/2020 11:15:12
 
 Backup of "errors_definition.h" successfully created
 Backup of "errors_list.h" successfully created
 
 Processed 57 lines
-Column names are: ['REG_NAME', 'bitfield', 'NAME', 'ERROR_CODE', 'TYPE', 'SERIOUSNESS', 'SW_NAME']
+Column names are: ['REG_NAME', 'bitfield', 'NAME', 'ERROR_CODE', 'TYPE', 'SERIOUSNESS', 'SW_NAME', 'RELATIONS(MB REG)', 'Unnamed: 8', 'NOT_FUNCTIONAL', 'SAFE_STATE', 'NEED_LCK_OUT']
+CSV file checksum is 0xd4877ee9
 
+defaultParser.py: Execution finished without errors.
